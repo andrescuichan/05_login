@@ -1,0 +1,102 @@
+@charset "ISO-8859-1";
+body {
+	margin: 0;
+    background-color:#333333;
+}
+.myDiv_0{
+	width: 100%; 
+    height: 70px; 
+    background-color:#333333;
+    position: fixed;
+    z-index: 2;
+}
+.caja_0{
+    width: 30%;
+    height: 90%;
+    margin:auto;
+}
+.caja_0_1{
+    width: 20%;
+    height: 100%;
+    float:left;
+}
+.caja_0_2{
+    width: 80%;
+    height: 100%;
+    float:left;
+    text-align: center;
+}
+.myDiv_1{
+	width: 100%; 
+    height: 70px; 
+    background-color:#333333;
+}
+.myDiv_2{
+    width: 100%; 
+    height: 900px;
+    background-size: cover; 
+    background-image: url("Imagenes/fondo_anillo2.jpg");
+    background-position: 50% 0%;
+    display: inline-block;
+}
+.caja_2_1{
+    width: 770px;
+    margin: 170px auto 0;
+    text-align: center;
+}
+.caja_2_2{
+    width: 770px;
+    margin: 50px auto 0;
+    text-align: center;
+}
+.caja_2_3{
+    width: 220px;
+    border: 5px solid white;
+    margin: 80px auto 0;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.myDiv_3 {
+    width: 100%; 
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja_3_1{
+    width: 280px;
+    text-align: center;
+    color:rgb(255, 255, 255); 
+}
+
+.nombre_andres{
+	color:rgb(255, 255, 255); 
+    font-size:  1.2rem;
+    font-weight: 600;
+}
+.titulo_principal{
+    text-shadow: 6px 6px 3px rgba(214, 33, 33, 0.925);
+    font-weight: 400;
+    font-size:  4.5rem;
+    line-height: 1.1;
+    color:rgb(255, 255, 255); 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Montserrat, sans-serif;     
+}
+.texto_incorrecto{     
+    font-family: 'Open Sans',sans-serif;
+    color: White;
+    font-size:  2.3rem;
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.Login_again{
+    display: inline;
+    font-weight: 400;
+    font-size:  2.5rem;
+    color:rgb(255, 255, 255); 
+    font-family: Montserrat, sans-serif;   
+}

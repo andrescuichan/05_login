@@ -1,0 +1,94 @@
+h1.titulo_principal{
+    text-align: center; 
+    color: blueviolet;
+}
+
+h1.titulo_secundario{
+    font-family:Verdana; 
+    color:rgb(230, 158, 70);
+}
+
+#creador{
+    font-family: 'Times New Roman';
+    text-align: center; 
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-size: 25px;
+}
+
+table{
+    border-collapse: collapse; 
+    margin: auto;
+}
+
+thead{
+    background-color:rgb(0, 0, 0);
+}
+
+th{
+    padding: 15px;
+}
+
+tbody{
+    text-align: center;
+}
+
+tr.cabezera{
+    text-align: center; 
+    color: white;
+}
+
+tr.body{
+    border-bottom: 3px solid #3d3d3d;
+}
+
+td.numero{
+    font-size: 30px; 
+    font-family: Verdana, Geneva;
+}
+td.title{
+    color:#989898;
+}
+
+td.sales{
+    font-style: italic;
+}
+
+.simbolo_arriba{
+    color:red;
+}
+
+.simbolo_abajo{
+    color:rgb(90, 216, 157);
+}
+
+img.youtube{
+    width:70px;
+    height:70px;
+}
+
+div.caja_sorteo{
+    width: 50%;
+    height: 100%;
+    float: left; 
+    background-color: black;
+
+}
+
+div.apartado_formulario{
+    float: left; 
+    /* border: 1px solid blue;*/
+    margin: 15px;
+    color: white;
+}
+
+div.apartado_descripcion{
+    float: left; 
+    width:99%;
+    color: white;
+    margin: 5px;
+}
+
+#texto_descrpcion{
+    margin: 10px;
+}

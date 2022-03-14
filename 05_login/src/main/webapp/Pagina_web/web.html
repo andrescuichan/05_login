@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML WEB</title>
+        <link rel="stylesheet" href="paleta.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1 class="titulo_principal"> P&aacute;gina web con HTML</h1>
+            <hr width="75%" size="5px" color="Blue" >
+            <h2 id="creador"> Creado por </br>Flavio Andr&eacute;s Cuichan Flores</h2>
+        </header>
+        <nav id="creador">
+            <a href="https://andrescuichan.github.io/CV_HTML_CSS/pagina_cv.html" target="_blank">Ver ejercicio del CV</a>
+        </nav>
+         </br>
+        <div>
+             <table>
+                <caption><h1 class="titulo_secundario">TOP 5 ALBUM KPOP</h1></caption>
+                <thead>
+                    <tr class="cabezera">
+                        <th >Ranking</th>
+                        <th >Album</th>
+                        <th >Title/Artist</th>
+                        <th >February Sales/2022 Sales</th>
+                        <th >Production</th>
+                        <th >M/V Youtube</th>      
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr class="body">
+                        <td class="numero" style="color: #ff8061;"> 1 <b class="simbolo_arriba">▲</b></td>
+                        <td><img src="http://img.gaonchart.co.kr/uploadDir/aoaAlbumImg/thumb/20211216_4F3562802754D28B6CBE67F22799E2C9.jpg"/></td> 
+                        <td class="title"> DIMENSION ANSWER </br>
+                            <b>ENHYPEN</b>
+                        </td>
+                        <td class="sales">723,478 / 723,478</td> 
+                        <td>Stone Music </td>
+                        <td><a href="https://www.youtube.com/watch?v=osmHArcf_aE" target="_blank"> <img class="youtube" src="you.png" /></a></td>  
+                    </tr>
+                    <tr class="body">
+                        <td class="numero" style="color: #f65e39;"> 2 <b style="color:rgb(124, 121, 121)">◆ </b></td>
+                        <td><img src="http://img.gaonchart.co.kr/uploadDir/aoaAlbumImg/thumb/20220112_3B8CBFCCA4E8D68FE915910BFC699519.jpg"/></td> 
+                        <td class="title"> UNIVERSE </br>
+                            <b>NCT</b>
+                        </td>
+                        <td class="sales">152,476 / 152,476</td> 
+                        <td>Dreamus</td>
+                        <td><a href="https://www.youtube.com/watch?v=SCK8yBLqQJc" target="_blank"> <img class="youtube" src="you.png" /></a></td>  
+                    </tr>
+                    <tr class="body">
+                        <td class="numero" style="color: #bb2500;"> 3 <b class="simbolo_abajo">▼</b></td>
+                        <td><img src="http://img.gaonchart.co.kr/uploadDir/aoaAlbumImg/thumb/20211216_56DCCAF8419DF496D3D048EC95F0101A.jpg"/></td> 
+                        <td class="title"> FIRST IMPACT </br>
+                            <b>Kep1er</b>
+                        </td>
+                        <td class="sales">300,099 / 300,099</td> 
+                        <td>Sony Music  </td>
+                        <td><a href="https://www.youtube.com/watch?v=n0j5NPptyM0" target="_blank"> <img class="youtube" src="you.png" /></a></td>  
+                    </tr>
+                    <tr class="body">
+                        <td class="numero" style="color: #bb2500;"> 4 <b class="simbolo_abajo">▼</b></td>
+                        <td><img src="http://img.gaonchart.co.kr/uploadDir/aoaAlbumImg/thumb/20210504_79B04EB3C5115CAB76C7C7C3D75D16E7.jpg"/></td> 
+                        <td class="title"> ELEVEN </br>
+                            <b>IVE</b>
+                        </td>
+                        <td class="sales">60,248 / 60,248</td> 
+                        <td>Warner Music </td>
+                        <td><a href="https://www.youtube.com/watch?v=--FmExEAsM8" target="_blank"> <img class="youtube" src="you.png" /></a></td>  
+                    </tr>
+                    <tr class="body">
+                        <td class="numero" style="color: black;"> 5 <b class="simbolo_arriba">▲</b></td>
+                        <td><img src="http://img.gaonchart.co.kr/uploadDir/aoaAlbumImg/thumb/20220209_A1F223F43073E8E2E364E206BD8037EC.jpg"/></td> 
+                        <td class="title"> SMiLEY </br>
+                            <b>YENA</b>
+                        </td>
+                        <td class="sales">60,000 / 60,000</td> 
+                        <td>YG PLUS </td>
+                        <td><a href="https://www.youtube.com/watch?v=y9kkXTucnLU" target="_blank"> <img class="youtube" src="you.png" /></a></td>  
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br/>
+        </br>
+        <hr width="75%" size="5px" color="Blue">
+        <marquee>
+            <h1 class="titulo_secundario">♫ RELLENA EL FORMULARIO Y GANA UNA ENTRADA!! ♫</h1>
+        </marquee>
+        </br>
+
+        <form action="procesarPeticion.jsp" method="get"> 
+            <div style="width:100%; height:400px;border: 2px solid green">
+                <div class="caja_sorteo">
+                    <img src="blackpink.jpg " width= 100% height= 100%;>
+                </div> 
+                <div class="caja_sorteo">
+                    <div class="apartado_formulario">
+                        <label for="nombre">Nombre: </label><br/>
+                        <input id="nombre" type="text" name="nombre"/><br/>
+                        <label for="apellidos">Apellidos: </label><br/>
+                        <input id="apellidos" type="text" name="apellidos" /><br/>
+                        <label for="pais">Pa&iacute;s: </label><br/>
+                        <input id="pais" type="text" name="Pais" /><br/>
+                        <br/>
+                    </div>
+                    <div class="apartado_formulario">
+                        <label for="Bias">Miembro favorita: </label>
+                        <br/>
+                        <input type="checkbox" name="Bias" value="JI" />Jisoo<br/>	
+                        <input type="checkbox" name="Bias" value="J" />Jennie<br />	
+                        <input type="checkbox" name="Bias" value="R" />Rose<br />	
+                        <input type="checkbox" name="Bias" value="L" />Lisa<br />	
+                        <br/>
+                    </div>
+                    <div class="apartado_formulario">
+                        Indique su edad:<br/>
+                        <input type="number" min="10" max="120" step="1" name="edadNumber" 
+                        placeholder="Edad" required/>
+                    </div>
+                    <div class="apartado_formulario">
+                        Indique su n&uacute;mero:<br/>
+                        <input type="tel" name="telefono" placeholder="Escribe su número de telefono"/>
+                        <br/>
+                    </div>
+                    <div class="apartado_descripcion">
+                        <div id="texto_descrpcion">
+                            <label for="observaciones">¿Cúal es tu canción favorita de BlackPink? Desarrolla tu respuesta</label>
+                            <br />
+                            <br />
+                            <textarea style="resize: none; width: 99%;" rows="5" name="observaciones"></textarea>
+                         </div>
+                    </div>
+                    <div class="apartado_formulario">
+                        <input type="submit" value="Enviar datos" />
+                        <input type="reset" value="Limpiar formulario" />
+                    </div>  
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
